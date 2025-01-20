@@ -1,9 +1,31 @@
-.font {
-    
+.text,
+.title1,
+.title2 {
+    font-family: sans-serif, serif;
 }
 
-.title {
+.text {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.title1 {
     text-align: center;
     font-size: 40px;
+    font-weight: 800;
+}
+
+.title2 {
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bold {
     font-weight: 800;
 }
